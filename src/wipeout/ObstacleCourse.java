@@ -15,7 +15,7 @@ import java.util.List;
  * to try to cross again.
  *
  * @author RIT CS
- * @author YOUR NAME HERE
+ * @author Helena Lynd
  */
 public class ObstacleCourse {
     /** The maximum number of Woolies allowed on the course */
@@ -76,8 +76,7 @@ public class ObstacleCourse {
     /** When the course is closed, the simulation has ended. */
     public void setClosed() { this.open = false; }
 
-    /** Turns the course off.  When the Kraken does this, no Woolies can
-     * cross. */
+    /** Turns the course off.  When the Kraken does this, no Woolies can cross. */
     public void turnOff() { this.running = false; };
 
     /** Turn the course on.  When the Kraken does this, Woolies can't cross. */
